@@ -241,26 +241,137 @@ a {
 .price-box {
   width: 326px;
   height: 497px;
-  background: black;
-  float:left;
+  background: white;
+  float: left;
   margin-left: 20px;
+  border: 2px solid #d7d6d6;
+  background: #f9f9f9;
 }
+
 .price-box.greenbox {
   width: 326px;
   height: 497px;
   background: green;
-  float:left;
+  float: left;
   margin-left: 20px;
+  border: 2px solid #22c8ac;
+  background: #22c8ac;
 }
+
 h2.price {
   font-family: 'Raleway';
-  color:  #575757;
+  color: #575757;
   font-size: 22px;
   font-weight: 500;
   line-height: 20.371px;
   text-align: left;
 }
 
+.plan {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway';
+  color: #27c7ab;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.plan.greenbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.big-circle {
+  width: 131px;
+  height: 131px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  border: 2px solid #c3c3c3;
+}
+.big-circle > p:nth-child(1) {
+  font-family: 'Raleway';
+  color: #c2c2c2;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 45px;
+}
+.big-circle > p:nth-child(2) {
+  font-family: 'Raleway';
+  color:  #c6c6c6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.big-circle-center {
+  width: 131px;
+  height: 131px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+.big-circle-center > p:nth-child(1) {
+  font-family: 'Raleway';
+  color: #c2c2c2;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 45px;
+}
+.big-circle-center > p:nth-child(2) {
+  font-family: 'Raleway';
+  color:  #c6c6c6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+
+}
+
+.price-text {
+  text-align: center;
+  font-family: 'Raleway';
+  color: #939393;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.price-text.light-grey {
+  background: #f1f1f1;
+}
+
+.price-text.dark-grey {
+  background: #e5e5e5;
+}
+
+.price-text.white {
+  background: #ffffff;
+}
 
 /*---------------------------------------------------*/
 
