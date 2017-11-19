@@ -270,8 +270,6 @@ h2.price {
 .plan {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
   font-family: 'Raleway';
   color: #27c7ab;
   font-size: 26px;
@@ -280,7 +278,7 @@ h2.price {
   text-align: center;
 }
 
-.plan.greenbox {
+.plan-greenbox {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Raleway';
@@ -301,7 +299,8 @@ h2.price {
   margin-bottom: 48px;
   border: 2px solid #c3c3c3;
 }
-.big-circle > p:nth-child(1) {
+
+.big-circle>p:nth-child(1) {
   font-family: 'Raleway';
   color: #c2c2c2;
   font-size: 45px;
@@ -309,10 +308,12 @@ h2.price {
   line-height: 20px;
   text-align: center;
   margin-top: 45px;
+  margin-bottom: 10px;
 }
-.big-circle > p:nth-child(2) {
+
+.big-circle>p:nth-child(2) {
   font-family: 'Raleway';
-  color:  #c6c6c6;
+  color: #c6c6c6;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -329,7 +330,7 @@ h2.price {
   margin-bottom: 48px;
 }
 
-.big-circle-center > p:nth-child(1) {
+.big-circle-center>p:nth-child(1) {
   font-family: 'Raleway';
   color: #c2c2c2;
   font-size: 45px;
@@ -338,14 +339,14 @@ h2.price {
   text-align: center;
   margin-top: 45px;
 }
-.big-circle-center > p:nth-child(2) {
+
+.big-circle-center>p:nth-child(2) {
   font-family: 'Raleway';
-  color:  #c6c6c6;
+  color: #c6c6c6;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   text-align: center;
-
 }
 
 .price-text {
@@ -373,6 +374,33 @@ h2.price {
   background: #ffffff;
 }
 
+.button-price-one {
+  border-radius: 8px;
+  background-color: black;
+  width: 122px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 102px;
+}
+.button-price-two {
+  border-radius: 8px;
+  background-color: black;
+  width: 122px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+.button-price-three {
+  border-radius: 8px;
+  background-color: black;
+  width: 122px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34px;
+}
 /*---------------------------------------------------*/
 
 #form {
