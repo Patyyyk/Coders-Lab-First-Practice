@@ -142,6 +142,13 @@ a {
   left: 640px;
   padding-top: 5px;
   padding-left: 5px;
+  color:  #ffffff;
+font-size: 24px;
+font-weight: 500;
+line-height: 20.371px;
+text-align: center;
+padding-top: 19px;
+padding-bottom: 12px;
 }
 
 /*---------------------------------------------------*/
@@ -246,6 +253,35 @@ a {
   margin-left: 20px;
   border: 2px solid #d7d6d6;
   background: #f9f9f9;
+  position: relative;
+}
+.small-circle {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  margin-left: 135px;
+  margin-top: -39px;
+  border: 2px solid #d7d6d6;
+  /*dlaczego po dodaniu border wewnetrzne kolko zmienia pozycje*/
+  background-color: #ffffff;
+  box-sizing: content-box;
+}
+.small-circle.greenbox {
+  background-color: #22c8ac;
+  border: none;
+}
+.inner-small-circle {
+  width: 27px;
+  height: 27px;
+  background-color: red;
+  margin: 15px 15px;
+  border-radius: 50%;
+  background-color: #c3c3c3;
+}
+.inner-small-circle.greenbox {
+  background-color:  #ffffff;
 }
 
 .price-box.greenbox {
@@ -256,6 +292,7 @@ a {
   margin-left: 20px;
   border: 2px solid #22c8ac;
   background: #22c8ac;
+  position: relative;
 }
 
 h2.price {
@@ -376,31 +413,54 @@ h2.price {
 
 .button-price-one {
   border-radius: 8px;
-  background-color: black;
+  background-color: #22c8ac;
+  ;
   width: 122px;
   height: 34px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 102px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 10px;
 }
+
 .button-price-two {
   border-radius: 8px;
-  background-color: black;
+  background-color: #ffffff;
+  ;
   width: 122px;
   height: 34px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
+  text-align: center;
+  color: #27c7ab;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 10px;
 }
+
 .button-price-three {
   border-radius: 8px;
-  background-color: black;
+  background-color: #22c8ac;
   width: 122px;
   height: 34px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 34px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 10px;
 }
+
 /*---------------------------------------------------*/
 
 #form {
