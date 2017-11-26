@@ -5,9 +5,9 @@
 <head>
   <meta charset="utf-8">
   <title>Sit on chair template</title>
-  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
             <div class="inner-small-circle">
             </div>
           </div>
-          <p class="plan">Basic Plan</p>
+          <p class="plan">Basic plan</p>
           <div class="big-circle">
             <p>85<sup>99</sup></p>
             <p>PLN/MSC</p>
@@ -78,12 +78,11 @@
         </div>
         <div class="price-box greenbox">
           <div class="small-circle greenbox">
-            <div class="inner-small-circle greenbox">
+            <div class="inner-small-circle white">
             </div>
           </div>
-          <p class="plan-greenbox">Standard Plan</p>
-          <div class="big-circle-center">
-            <!-- zapytac czemu nie odsowa sie wzgledem rodzica -->
+          <p class="plan white-plan-text">Standard Plan</p>
+          <div class="big-circle">
             <p>95<sup>99</sup></p>
             <p>PLN/MSC</p>
           </div>
@@ -112,9 +111,20 @@
   </div>
   </section>
   </div>
+
   <div class="container">
     <section id="form">
-
+        <h2 class="price">Kontakt</h2>
+        <form class="contact">
+        <input	class="twoInputs" type="text"	name="imie" placeholder=" Imię"><br>
+        <input	class="twoInputs" type="email"	name="email"	placeholder=" email"><br>
+        <textarea	cols="50"	rows="10" placeholder=" Wiadomosc"></textarea>
+        <div class='checkbox'>
+          <input type='checkbox' id='checkbox_1' >
+          <label for='checkbox_1'></label>
+        </div>
+				<input	type="submit"	value="Wyślij">
+        </form>
     </section>
   </div>
   <footer>
