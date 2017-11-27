@@ -34,9 +34,45 @@ header {
   line-height: 21.37px;
   text-align: left;
   float: right;
-  padding-right: 68px;
   text-transform: uppercase;
   font-family: 'Raleway';
+}
+
+.nav li:hover > ul.nav-content {
+  display: flex;
+}
+
+ul.nav li > a:hover {
+  text-decoration: underline;
+}
+
+.nav li:hover > ul.nav-content::before {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+  display: block;
+}
+
+.nav-content {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 120px;
+  height: 96px;
+  position: absolute;
+  background-color: #000000;
+  z-index: 1;
+  margin-top: 25px;
+
+  a {
+    padding: 0;
+  }
+}
+ul.nav-content:hover{
+  display: flex;
 }
 
 a {
@@ -197,7 +233,15 @@ a {
   padding-left: 10px;
   padding-top: 10px;
 }
+.galleryh2::after{
+  content: "";
+  border: 4px solid #1fbba1;
+  position: absolute;
+  width: 138px;
+  margin-top: 26px;
+  left: 10px;
 
+}
 .galleryh2a {
   background-color: rgba(255, 255, 255, 0.3);
   font-family: 'Raleway';
@@ -213,6 +257,15 @@ a {
   height: 62px;
   padding-left: 10px;
   padding-top: 10px;
+}
+.galleryh2a::after{
+  content: "";
+  border: 4px solid #1fbba1;
+  position: absolute;
+  width: 138px;
+  margin-top: 26px;
+  left: 10px;
+
 }
 
 .gallery-article {
@@ -450,7 +503,7 @@ h2.price {
 
 h2.price::after {
   content: "";
-  border: 8px solid #1fbba1;
+  border: 4px solid #1fbba1;
   position: absolute;
   width: 320px;
   margin-top: 26px;
@@ -590,7 +643,8 @@ footer {
       line-height: 21.37px;
       text-align: left;
       text-transform: uppercase;
-      span{
+
+      span {
         font-weight: bold;
       }
     }
