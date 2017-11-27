@@ -444,7 +444,6 @@ h2.price {
 #form {
   height: 565px;
   background-color: #ffffff;
-  // height: 725px;
   padding-top: 66px;
   padding-left: 66px;
 }
@@ -489,26 +488,74 @@ textarea {
   padding-top: 19px;
   padding-left: 16px;
 }
-.checkbox input[type="checkbox"] {
-    opacity: 0;
-}
-.checkbox label::before{
-    content: "";
-    display: inline-block;
-    width: 46px;
-    height: 47px;
-    border: 2px solid #22c8ac;
-}
-.checkbox label::after {
-    content: "";
-    display: inline-block;
-    height: 6px;
-    width: 9px;
-    height: 6px;
-    width: 9px;
-    background-image: url(../images/form_ok.jpg);
 
-  }
+.redchair {
+  float: right;
+  margin-right: 145px;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 10px;
+  float: right;
+}
+
+p.agree {
+  float: right;
+  margin-right: 101px;
+  margin-left: 14px;
+  font-family: 'Raleway';
+  color: #aeaeae;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22.37px;
+  text-align: left;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"] + label {
+  display: block;
+  float: left;
+  width: 46px;
+  height: 47px;
+  border: 2px solid #22c8ac;
+}
+
+.custom-checkbox input[type="checkbox"] + label:after {
+  content: '';
+  width: 34px;
+  height: 33px;
+  margin: 4px;
+  background: url("../images/form_ok.jpg") no-repeat center/100%;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label:after {
+  display: block;
+}
+
+input[type=submit] {
+  background-color: #24baa0;
+  width: 343px;
+  height: 71px;
+  float: right;
+  border-radius: 8px;
+  position: absolute;
+  margin-top: 116px;
+  margin-left: 58px;
+}
+
+input[value="Wyślij"] {
+  font-family: 'Raleway';
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 20.371px;
+  text-align: center;
+}
 
 footer {
   height: 110px;
