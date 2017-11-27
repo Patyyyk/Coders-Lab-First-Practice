@@ -545,7 +545,7 @@ input[type=submit] {
   border-radius: 8px;
   position: absolute;
   margin-top: 116px;
-  margin-left: 58px;
+  margin-left: 50px;
 }
 
 input[value="Wyślij"] {
@@ -556,9 +556,45 @@ input[value="Wyślij"] {
   line-height: 20.371px;
   text-align: center;
 }
-
+/*---------------------------------------------------*/
 footer {
   height: 110px;
+
+  .footer-inner-container {
+    margin-left: 66px;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    p.copyright {
+      margin-right: 287px;
+      font-family: 'Raleway';
+      color: #9b9b9b;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 21.37px;
+      text-align: left;
+    }
+
+    img {
+      margin: 7px;
+    }
+
+    p.footerSit {
+      margin-left: 73px;
+      font-family: 'Raleway';
+      color: #9b9b9b;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 21.37px;
+      text-align: left;
+      text-transform: uppercase;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
 }
 
 .green-letters {
