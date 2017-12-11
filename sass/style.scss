@@ -98,8 +98,7 @@ a {
   position: relative;
 }
 
-#welcome::before {
-  content: "<";
+.slider-prevbutton {
   font-family: 'Raleway';
   color: #24baa0;
   font-size: 78px;
@@ -111,8 +110,7 @@ a {
   top: 240px;
 }
 
-#welcome::after {
-  content: ">";
+.slider-nextbutton {
   font-family: 'Raleway';
   color: #24baa0;
   font-size: 78px;
@@ -129,6 +127,9 @@ a {
   width: 547px;
   height: 346px;
   margin-top: 100px;
+}
+#welcome img[src~="images/red_chair.png"]{
+  transform: scale(0.8, 0.8);
 }
 
 #welcome h1 {
@@ -175,6 +176,9 @@ a {
   text-align: center;
   padding-top: 19px;
   padding-bottom: 12px;
+}
+.slider-block {
+  display: none;
 }
 /*---------------------------------------------------*/
 #gallery {
@@ -226,7 +230,10 @@ a {
   padding-top: 10px;
 }
 .images-to-hover:hover+h2{
-display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 500ms linear,
+    visibility 0s linear 500ms;
 }
 
 .galleryh2::after {
